@@ -152,8 +152,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\XFNetStandardSample.Core\XFNetStandardSample.csproj">
-      <Project>{ab2a3725-12e7-426f-8f88-0a9440f9f8fb}</Project>
+    <ProjectReference Include="..\XFNetStandardSample\XFNetStandardSample.csproj">
+      <Project>{f5dee755-a268-45b4-a34d-9798ddd09acb}</Project>
       <Name>XFNetStandardSample</Name>
     </ProjectReference>
   </ItemGroup>
