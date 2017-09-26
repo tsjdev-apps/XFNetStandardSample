@@ -134,6 +134,12 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XFNetStandardSample\XFNetStandardSample.csproj">
+      <Project>{f5dee755-a268-45b4-a34d-9798ddd09acb}</Project>
+      <Name>XFNetStandardSample</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
